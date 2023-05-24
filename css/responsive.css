@@ -1,0 +1,305 @@
+/* mobile and tablet */
+@media (max-width: 1023px) {
+  .hide-on-mobile-tablet {
+    display: none;
+  }
+
+  .header-arrow-down {
+    margin: 0;
+  }
+
+  .fa-chevron-down {
+    font-size: 10px;
+  }
+
+  .menu-item a {
+    margin: 0;
+  }
+
+  .product-programs {
+    top: 8px;
+    left: 8px;
+  }
+
+  .pro-discount {
+    width: 36px;
+    height: 20px;
+    font-size: 10px;
+  }
+
+  .pro-pre-order {
+    width: 56px;
+    height: 20px;
+    background: #177983;
+    font-size: 10px;
+  }
+
+  .language,
+  .money-unit {
+    margin-left: 8px;
+  }
+
+  .follow-item {
+    margin-bottom: 8px;
+  }
+
+  .footer-infor {
+    flex-wrap: wrap;
+    padding: 50px 0;
+  }
+
+  .footer-heading {
+    margin-bottom: 12px;
+  }
+
+  .footer-signup {
+    margin-top: 12px;
+  }
+
+  .email-input {
+    padding: 9px;
+    margin-right: 8px;
+    border-radius: 30px;
+  }
+
+  .subscribe-btn {
+    font-size: 10px;
+    line-height: 12px;
+    padding: 9px 20px;
+  }
+}
+
+/* mobile */
+@media (max-width: 739px) {
+  .hide-on-mobile {
+    display: none;
+  }
+
+  .language,
+  .money-unit {
+    margin-left: 12px;
+  }
+
+  .logo {
+    padding: 4px;
+    margin-left: 4px;
+  }
+
+  .home-header-main {
+    height: 70px;
+  }
+
+  .home-header-icons {
+    display: flex;
+  }
+
+  .home-header-icon {
+    font-size: 18px;
+    padding: 8px;
+    margin: 0;
+  }
+
+  .menu-items {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 12px;
+  }
+
+  .menu-item {
+    margin: 0;
+    padding: 8px;
+  }
+
+  .slider-box {
+    top: calc(50% - 56px);
+  }
+
+  .slider-content h2 {
+    font-size: 20px;
+    line-height: 24px;
+    margin: 8px 0;
+  }
+
+  .discount {
+    font-size: 10px;
+    line-height: 12px;
+    margin-bottom: 12px;
+  }
+
+  .buy-btn {
+    font-size: 10px;
+    padding: 4px 8px;
+  }
+
+  .next-btn {
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+  }
+
+  .next-btn-icon {
+    font-size: 12px;
+  }
+
+  .dots {
+    bottom: 8px;
+  }
+
+  .dot {
+    width: 6px;
+    height: 6px;
+  }
+
+  #content {
+    padding: 20px 0;
+  }
+
+  .list-caters {
+    margin-bottom: 20px;
+  }
+
+  .cater-item {
+    margin-bottom: 12px;
+  }
+
+  .cater-img {
+    width: 140px;
+    height: 140px;
+  }
+
+  .intro-box {
+    padding: 8px;
+    max-width: 260px;
+    top: calc(50% - 66px);
+    right: 4%;
+  }
+
+  .intro-box p {
+    font-size: 10px;
+    line-height: 12px;
+    margin-bottom: 2px;
+  }
+
+  .intro-box h3 {
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 4px;
+  }
+
+  .intro-box .intro-desc {
+    font-size: 10px;
+    line-height: 12px;
+    margin-bottom: 8px;
+  }
+
+  .discover-btn {
+    padding: 4px 12px;
+    font-size: 10px;
+  }
+
+  .intro-features {
+    margin: 20px 0 20px 0;
+  }
+
+  .feature-item {
+    font-size: 11px;
+    margin: 0 4px;
+    max-width: 340px;
+  }
+
+  .intro-line {
+    margin-bottom: 30px;
+  }
+
+  .brand-infor {
+    margin-bottom: 20px;
+  }
+
+  .brand-desc {
+    margin: 12px 0;
+  }
+}
+
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+  .hide-on-tablet {
+    display: none;
+  }
+
+  .menu-item {
+    margin-left: 8px;
+  }
+
+  .home-header-icon {
+    margin-left: 4px;
+  }
+
+  .slider-content h2 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  .discount {
+    margin-bottom: 16px;
+  }
+
+  .slider-box {
+    top: calc(50% - 86px);
+  }
+
+  .buy-btn {
+    padding: 8px 16px;
+  }
+
+  .cater-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+
+  .intro-box {
+    padding: 12px;
+    max-width: 360px;
+    top: calc(50% - 115px);
+    right: 10%;
+  }
+
+  .intro-box p {
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 8px;
+  }
+
+  .intro-box h3 {
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 12px;
+  }
+
+  .intro-box .intro-desc {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 20px;
+  }
+
+  .discover-btn {
+    padding: 8px 26px;
+  }
+
+  .intro-features {
+    margin: 20px;
+  }
+
+  .feature-item {
+    margin: 0 12px;
+    max-width: 340px;
+  }
+}
+
+/* tablet & destop */
+@media (min-width: 740px) {
+  .hide-on-tablet-destop {
+    display: none;
+  }
+}
